@@ -14,7 +14,6 @@ app = new qApp {
       StyleFusion()
       win = new qWidget() {
             setWindowTitle('ASCII Table')
-            move(490,100)
             resize(900,400)
             setstylesheet('background-color:white')
             oTable = pInit()	    
